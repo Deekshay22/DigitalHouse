@@ -13,7 +13,7 @@
 
     <?php include 'assets/includes/header.php' ?>
 
-
+    
     <div class="hero bg-section hero-slider-layout">
         <div class="swiper">
             <div class="swiper-wrapper">
@@ -36,7 +36,7 @@
 
                                             <div class="hero-btn wow fadeInUp" data-wow-delay="0.6s">
                                                 <a href="#" class="btn-default">Get in Touch</a>
-                                                <a href="#" class="btn-default btn-highlighted">Our Services</a>
+                                                <a href="ourservices.php" class="btn-default btn-highlighted">Our Services</a>
                                             </div>
                                         </div>
                                     </div>
@@ -60,7 +60,7 @@
                                         <div class="hero-content">
                                             <div class="section-title">
                                                 <!-- <h3 class="wow fadeInUp">Welcome <span id="tdh-style-2">the</span> Digital House</h3> -->
-                                                <h1 class="wow fadeInUp" data-wow-delay="0.2s">360 Degree <span>Marketing Agency</span></h1>
+                                                <h1 class="wow fadeInUp" data-wow-delay="0.2s">360&#176;<span>Marketing Agency</span></h1>
                                                 <p class="wow fadeInUp" data-wow-delay="0.4s">Our strategies are data- and analytics-driven, ensuring every marketing dollar is well spent.</p>
                                             </div>
 
@@ -275,6 +275,7 @@
         </div>
     </div>
 
+    <!-- Our Services -->
     <div class="our-expertise">
         <div class="container">
             <div class="row align-items-center">

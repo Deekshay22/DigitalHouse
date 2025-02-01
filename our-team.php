@@ -6,7 +6,7 @@
     <meta name="keywords" content="The Digital House, Currency Tower, Digital Marketing">
     <meta name="author" content="The Digital House">
     <title>Our Dedicated Team | The Digital House</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <?php include 'assets/includes/head.php' ?>
 </head>
 
@@ -14,7 +14,7 @@
 
     <?php include 'assets/includes/header.php' ?>
    
-    
+
 
     <div class="page-header bg-section">
         <div class="page-header-box">
@@ -35,12 +35,12 @@
             </div>
         </div>
     </div>
-
-    <div class="about-us">
+<!-- About -->
+    <!-- <div class="about-us">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
-                    <img class="about-img image-anime reveal" src="assets/images/about-us/about8.png" alt="The Digital House, Currency Tower, Raipur">
+                    <img class="about-img image-anime reveal" src="assets/images/about-us/about9.png" alt="The Digital House, Currency Tower, Raipur">
                 </div>
 
                 <div class="col-lg-8">
@@ -65,11 +65,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
+<!-- Meet the founder -->
 
-
-    <div class="our-approach bg-section">
+    <!-- <div class="our-approach bg-section">
         <div class="container">
             <div class="row section-row">
                 <div class="col-lg-12">
@@ -90,6 +90,8 @@
                 <div class="col-lg-7">
                     <div class="section-title">
                         <h2 class="wow fadeInUp" data-wow-delay="0.25s"><span>Nayra Jaswani</span></h2>
+                        <p class="found-H"><b> <em>Founder</em></b>
+                            </p>
                         <p class="wow fadeInUp" data-wow-delay="0.4s">
                         With 5+ of experience and more than fifty satisfied customers, our mission at the Digital House is to empower businesses in the rapidly changing digital landscape. We produce quantifiable results by using tailored, data-driven tactics and a dedication to openness.
 
@@ -104,21 +106,12 @@
             </div>
 
 
-
-
-            <div class="row section-row">
-                <div class="col-lg-12">
-                    <div class="section-title text-center">
-                        <h2 class="wow fadeInUp" data-wow-delay="0.25s">Meet the <span>Co-founder</span></h2>
-                    </div>
-                </div>
-            </div>
-
-
             <div class="row align-items-center mt-3">
                 <div class="col-lg-7">
                     <div class="section-title">
                         <h2 class="wow fadeInUp" data-wow-delay="0.25s"><span>Gaurav Panjwani</span></h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.4s">
+                            Co-Founder </p>
                         <p class="wow fadeInUp" data-wow-delay="0.4s">
                         We envision a future where businesses thrive through innovative, tailored marketing strategies 
                         that reflect their unique identity and goals. At The Digital House, we bring 5+ years of expertise and a commitment to delivering measurable, impactful results that drive growth and engagement.
@@ -141,15 +134,15 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
      <?php include 'assets/includes/team.php' ?> 
      <!-- Team section -->
      
 
 <!-- team -->
-
-     <div class="company-growth bg-section">
+<!-- elevate yoye brand? -->
+     <!-- <div class="company-growth bg-section">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5">
@@ -179,7 +172,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <?php include 'assets/includes/footer.php' ?>
 
     <?php include 'assets/includes/scripts.php' ?>

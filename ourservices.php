@@ -11,10 +11,8 @@
 
 <body>
     <?php include 'assets/includes/header.php' ?>
-    <?php include 'assets/includes/flexone.php' ?> 
-    <<?php include 'assets/includes/advertisement.php' ?> 
 
-   
+
     <?php include 'assets/includes/footer.php' ?>
 
 <?php include 'assets/includes/scripts.php' ?>

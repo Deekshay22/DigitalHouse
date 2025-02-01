@@ -16,17 +16,17 @@
                             <!-- <li class="nav-item"><a class="nav-link" href="#">About Us</a></li> -->
                             <li class="nav-item submenu"><a class="nav-link" href="#">About</a>
                                 <ul>
-                                    <li class="nav-item"><a class="nav-link" href="our-team.php">About Us</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
                                     <li class="nav-item"><a class="nav-link" href="our-team.php">Our Team</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Careers</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="career.php">Careers</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item submenu"><a class="nav-link" href="ourservices.php">Our Services</a>
+                            <li class="nav-item submenu"><a class="nav-link" href="#">Our Services</a>
                                 <ul>
-                                    <li class="nav-item"><a class="nav-link" href="flexone.php">Branding</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Marketing</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="branding.php">Branding</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="marketing.php">Marketing</a></li>
                                     <li class="nav-item"><a class="nav-link" href="advertisement.php">Advertising</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Web Development</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="development.php">Web Development</a></li>
                                     <!-- <li class="nav-item"><a class="nav-link" href="#">Perfomance Marketing</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#">Influencer Marketing</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#">Content Marketing</a></li>
@@ -63,7 +63,7 @@
                     <!-- Header Btn Start -->
                     <div class="header-btn d-inline-flex">
                         <!-- <a href="tel:+918602020267" class="btn-phone"><i class="fa-solid fa-phone-volume"></i>86-020202-67</a> -->
-                        <a href="#" class="btn-default">get in touch</a>
+                        <a href="#" class="btn-default"><i class="fa-brands fa-whatsapp"></i></a>
                     </div>
                     <!-- Header Btn End -->
                 </div>

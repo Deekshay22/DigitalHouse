@@ -18,7 +18,7 @@
                                 <div class="testimonial-item">
                                     <div class="testimonial-slider-image">
                                         <figure class="image-anime">
-                                            <img src="assets/images/testimonial-img-1.jpg" alt="The Digital House, Currency Tower, Raipur">
+                                            <!-- <img src="assets/images/testimonial-img-1.jpg" alt="The Digital House, Currency Tower, Raipur"> -->
                                         </figure>
                                     </div>
 
@@ -53,7 +53,7 @@
                                 <div class="testimonial-item">
                                     <div class="testimonial-slider-image">
                                         <figure class="image-anime">
-                                            <img src="assets/images/testimonial-img-2.jpg" alt="The Digital House, Currency Tower, Raipur">
+                                            <!-- <img src="assets/images/testimonial-img-2.jpg" alt="The Digital House, Currency Tower, Raipur"> -->
                                         </figure>
                                     </div>
 
@@ -88,7 +88,7 @@
                                 <div class="testimonial-item">
                                     <div class="testimonial-slider-image">
                                         <figure class="image-anime">
-                                            <img src="assets/images/testimonial-img-3.jpg" alt="The Digital House, Currency Tower, Raipur">
+                                            <!-- <img src="assets/images/testimonial-img-3.jpg" alt="The Digital House, Currency Tower, Raipur"> -->
                                         </figure>
                                     </div>
 

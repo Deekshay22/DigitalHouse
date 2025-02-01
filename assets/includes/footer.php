@@ -22,7 +22,7 @@
 
             <div class="col-lg-3 col-md-3">
                 <div class="footer-contact-info">
-                    <h3>You can follow us on</h3>
+                    <h3 style="color:orange">You can follow us on</h3>
                 </div>
                 <div class="footer-social-links">
                     <ul>
@@ -36,7 +36,7 @@
 
             <div class="col-lg-6 col-md-3">
                 <div class="footer-contact-info">
-                    <h3>Get Connected</h3>
+                    <h3 style="color: orange">Get Connected</h3>
                     <!-- <i class="fa-solid fa-location-dot"></i> -->
                     <a href="https://maps.app.goo.gl/Hij9KVTZVMAdZTok7" target="_blank">
                         <i class="fa-solid fa-location-dot"></i> Office No. 3036 3rd Floor, Currency Tower, VIP Chowk, Raipur, C.G

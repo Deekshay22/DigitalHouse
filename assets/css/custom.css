@@ -203,7 +203,8 @@ body{
 	line-height: 1em;
     text-transform: capitalize;
     border: none;
-    padding: 17px 54px 17px 20px;
+    /* padding: 17px 54px 17px 20px; */
+	padding: 17px;
     transition: all 0.4s ease-in-out;
 	overflow: hidden;
 	z-index: 0;
@@ -213,7 +214,7 @@ body{
 	background-position: right center;
 }
 
-.btn-default::before{
+/* .btn-default::before{
 	content: '';
 	position: absolute;
 	top: -1px;
@@ -227,7 +228,7 @@ body{
 	background-size: cover;
 	transform: translate(-20px, 50%);
 	transition: all 0.4s ease-in-out;
-}
+} */
 
 .btn-default:hover::before{
 	transform: translate(-20px, 50%) rotate(45deg);
