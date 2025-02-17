@@ -180,44 +180,22 @@
     </div>
 </section>
 
-    <!-- <div class="teamT">
-            <header class="text-center py-8">
-                    <h1 class="text-4xl font-bold">Our Founders!</h1> 
-                    <p class="teamP">we think brilliant minds produce outstanding outcomes.
-                        Together, our team's talent, creativity, and experience will help realize the vision for your brand.
-                    </p>
-            </header>
-            <div class="container my-5">
-                <div class="team-container" team>
-                    <div class="team-card yellow">
-                        <img src="avatar-placeholder.png" alt="Dyna">
-                        <h3> Nayra Jaswani</h3>
-                        <p>Founder</p>
-                    </div>
-                    <div class="team-card gray">
-                        <img src="avatar-placeholder.png" alt="Sydney">
-                        <h3> Gaurav Panjwani</h3>
-                        <p>Co-Founder</p>
-                    </div>
-                </div>
-    </div> -->
         <header class="text-center py-8">
                     <!-- <h1 class="text-4xl font-bold">Our Team!</h1> 
                     <p class="teamP">welcome the team page where innovation begin</p> -->
                     <hr style="width:2px;">
             </header>
-            <div class="container my-5">
+            <!-- <div class="container my-5">
                 <div class="team-container"  class="image-anime" team>
                     <div class="team-card yellow">
-                        <!-- <img src="avatar-placeholder.png" alt="Dyna"> -->
-                        <h3>Meta Ads
-                        </h3>
+                        <img src="" alt="Dyna">
+                        <h3>Meta Ads </h3>
                         <p>At The Digital House, we help your business connect with the right audience using the power of Meta ads on Facebook and Instagram. With billions of active users, these platforms offer unmatched opportunities for engagement and results.
                             Our Meta advertising strategies are tailored to your business goals, whether you want to generate leads, increase website traffic, or raise brand awareness. We start by understanding your brand, audience, and objectives to create highly targeted campaigns. Using various ad formats like carousel ads, video ads, and story ads, we design compelling visuals that capture attention. 
                             Our team uses advanced targeting techniques to ensure your ads reach the most relevant users, driving higher conversions and maximizing ROI.</p>
                     </div>
                     <div class="team-card gray">
-                        <!-- <img src="assets/images/team/" alt="Sydney"> -->
+                        <img src="assets/images/advertisement/Pay Per Click.png" alt="Sydney">
                         <h3>PPC (Google Ads)</h3>
                         <p>At The Digital House, we help businesses dominate search engine results with PPC (Pay-Per-Click) campaigns using Google Ads.
                         For quick, effective results, Google Ads is the ideal solution. Our team creates targeted PPC campaigns that place your brand in front of potential customers when they search for products or services like yours. 
@@ -225,7 +203,7 @@
                         </p>
                     </div>
                     <div class="team-card blue">
-                        <!-- <img src="avatar-placeholder.png" alt="Stephani"> -->
+                        <img src="avatar-placeholder.png" alt="Stephani">
                         <h3>Linked in ads</h3>
                         <p>At The Digital House, we use LinkedIn Ads to help your business reach professionals, generate high-quality leads, and build brand awareness. 
                             LinkedIn is the top platform for B2B marketing, allowing you to connect with industry experts, decision-makers, and influencers. 
@@ -235,7 +213,7 @@
                         </p>
                     </div>
                     <div class="team-card pink">
-                        <!-- <img src="assets/images/team/" alt="Rachel"> -->
+                        <img src="assets/images/team/" alt="Rachel">
                         <h3> Snapchat ads</h3>
                         <p>The Digital House understands the power of Snapchat Ads in reaching a young, tech-savvy audience. With millions of daily users, Snapchat offers a unique chance to connect with Millennials and Generation Z in a fun and interactive way. 
                             We create engaging Snapchat ads that capture attention, drive interaction and build brand awareness. Our team customizes each campaign to meet your goals, whether it’s increasing app installs, promoting products, or driving website traffic. 
@@ -243,7 +221,7 @@
                         </p>
                     </div>
                     <div class="team-card green">
-                        <!-- <img src="assets/images/team/" alt="Alex"> -->
+                        <img src="assets/images/team/" alt="Alex">
                         <h3> Youtube ads
                         </h3>
                         <p>At The Digital House, we help you leverage YouTube Ads to engage with a wider audience through video. 
@@ -254,7 +232,7 @@
                             We track key metrics like view rates and click-through rates to optimize your campaigns for the best ROI and performance</p>
                     </div>
                     <div class="team-card green">
-                        <!-- <img src="assets/images/team/" alt="Alex"> -->
+                        <img src="assets/images/team/" alt="Alex">
                         <h3>commercial ad creation</h3>
                         <p> At The Digital House, we specialize in creating commercial ads that effectively communicate your brand and grab attention. 
                             Whether you're launching a product, promoting a service, or building brand awareness, we craft visually stunning commercials that make an impact. 
@@ -265,7 +243,120 @@
                     <h1></h1>
                 </div>
             </div>
+        </div> -->
+
+        <!--  -->
+         <div class="how-we-work">
+        <div class="container">
+            <!-- <div class="row section-row align-items-center">
+                <div class="col-lg-12">
+                    <div class="section-title text-center">
+                        <h3 class="wow fadeInUp">Our Services</h3>
+                        <h2 class="wow fadeInUp" data-wow-delay="0.25s">Our <span>Expertise</span></h2>
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="row">
+                <!-- <div class="col-lg-6 col-md-6">
+                    <div class="how-work-item wow fadeInUp">
+                        <img src="assets/images/advertisement/SEO.png" alt="The Digital House, Currency Tower, Raipur">
+
+                        <div class="how-work-content">
+                            <h3>SEO (Search Engine Optimization)</h3>
+                            <p>
+                                Increase your visibility and reach more potential customers with our proven SEO techniques.
+                            </p>
+                            <div class="AD-btn">
+                            <button class="AD-primary">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="col-lg-6 col-md-6">
+                    <div class="how-work-item wow fadeInUp" data-wow-delay="0.2s">
+                        <img src="assets/images/advertisement/PPCC.png" alt="The Digital House, Currency Tower, Raipur">
+
+                        <div class="how-work-content">
+                            <h3>PPC / Google Ads</h3>
+                            <p>
+                                Drive instant conversion with our effective paid advertising campaigns.
+                            </p>
+                            <div class="AD-btn">
+                            <a href="ppcAD.php" class="AD-primary btn-default">learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                    <div class="how-work-item wow fadeInUp" data-wow-delay="0.4s">
+                        <img src="assets/images/advertisement/Instagram.png" alt="The Digital House, Currency Tower, Raipur">
+
+                        <div class="how-work-content">
+                            <h3>Instagram Ads</h3>
+                            <p>
+                                Tell your brand with compelling content that engages, informs, and converts.
+                            </p>
+                            <div class="AD-btn">
+                            <!-- <button class="AD-primary">instaAD.php</button> -->
+                            <a href="instaAD.php" class="AD-primary btn-default">learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                    <div class="how-work-item wow fadeInUp" data-wow-delay="0.6s">
+                        <img src="assets/images/advertisement/Facebook.png" alt="The Digital House, Currency Tower, Raipur">
+
+                        <div class="how-work-content">
+                            <h3>Facebook Ads</h3>
+                            <p>
+                                Create authentic, engaged communities on platforms like Facebook, Instagram, and LinkedIn.
+                            </p>
+                            <div class="AD-btn">
+                            <a  href="faceAD.php" class="AD-primary btn-default">learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                    <div class="how-work-item wow fadeInUp" data-wow-delay="0.6s">
+                        <img src="assets/images/advertisement/YT.png" alt="The Digital House, Currency Tower, Raipur">
+
+                        <div class="how-work-content">
+                            <h3>Youtube ads</h3>
+                            <p>
+                                Create authentic, engaged communities on platforms like Facebook, Instagram, and LinkedIn.
+                            </p>
+                            <div class="AD-btn">
+                            <a  href="youtubeAD.php" class="AD-primary btn-default">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-6 col-md-6">
+                    <div class="how-work-item wow fadeInUp" data-wow-delay="0.6s">
+                        <img src="assets/images/advertisement/commercial.png" alt="The Digital House, Currency Tower, Raipur">
+
+                        <div class="how-work-content">
+                            <h3>commercial ad creation</h3>
+                            <p>
+                                Create authentic, engaged communities on platforms like Facebook, Instagram, and LinkedIn.
+                            </p>
+                        </div>
+                    </div>
+                </div> -->
+
+            
+            </div>
         </div>
+    </div>
+
+    <!--  -->
 
 
   <?php include 'assets/includes/footer.php' ?>

@@ -51,10 +51,10 @@
       </div>
     </div> -->
     <header class="text-center py-8">
-        <h1 class="text-4xl font-bold">Services That Drive Results-</h1> 
-        <p class="teamP">Explore a variety of solutions to elevate your brand and increase your digital footprint. 
+        <h1 class="text-4xl font-bold">Your brand is your style statement—make it bold, make it unforgettable</h1> 
+        <!-- <p class="teamP">Explore a variety of solutions to elevate your brand and increase your digital footprint. 
         From social media marketing to custom campaigns, we've got you covered.
-        </p>
+        </p> -->
     </header>
   </div>
   
@@ -62,78 +62,84 @@
 
    <!-- Marketing Section -->
   <div class="marketing-section">
-    <!-- 8 Marketing Containers -->
+   
     <div class="marketing-container" >
       <div class="content-container">
-        <h2>Content Creation</h2>
-        <p>At the Digital House, we believe content is key to successful marketing. It not only communicates your message but also connects your brand with your audience. Our content creation services focus on crafting high-quality, engaging content that resonates with your target audience.
-We take the time to learn about your brand and goals to create personalized content that is relevant to your target audience's preferences. 
+        <h2>Content Marketing</h2>
+        <p>At the Digital House, we believe content is key to successful marketing. It not only communicates your message but also connects your brand with your audience.
+          <!-- Our content creation services focus on crafting high-quality, engaging content that resonates with your target audience.
+          We take the time to learn about your brand and goals to create personalized content that is relevant to your target audience's preferences.  -->
 </p>
-        <a href="#" class="marketing-btn">Learn More</a>
+        <a href="contentM.php" class="marketing-btn">Learn More</a>
       </div>
-      <div class="img-container">
+      <!-- <div class="img-container">
         <img src="https://via.placeholder.com/300x200" alt="Marketing Image 1">
-      </div>
+      </div> -->
     </div>
     
     <div class="marketing-container" >
       <div class="content-container">
         <h2>Social media marketing</h2>
         <p>At the Digital House, we offer expert social media marketing services to help your brand grow and engage with your audience across all platforms. Social media is a powerful tool for boosting brand awareness, engaging customers, and achieving your business goals.
-Our team specializes in creating tailored strategies, crafting captivating content, and executing performance-driven campaigns to drive results. </p>
-        <a href="#" class="marketing-btn">Learn More</a>
+      <!-- Our team specializes in creating tailored strategies, crafting captivating content, and executing performance-driven campaigns to drive results.  -->
+    </p>
+        <a href="socialMM.php" class="marketing-btn">Learn More</a>
       </div>
-      <div class="img-container">
+      <!-- <div class="img-container">
         <img src="https://via.placeholder.com/300x200" alt="Marketing Image 2">
-      </div>
+      </div> -->
     </div>
 
     <div class="marketing-container">
       <div class="content-container">
         <h2>SEO Service </h2>
         <p>At the Digital House, our SEO services are designed to enhance your website's visibility, improve rankings, and drive organic traffic.
-           In today's competitive digital landscape, a strong SEO strategy is essential for reaching potential customers and standing out.
+           <!-- In today's competitive digital landscape, a strong SEO strategy is essential for reaching potential customers and standing out. -->
 </p>
-        <a href="#" class="marketing-btn">Learn More</a>
+        <a href="SEOM.php" class="marketing-btn">Learn More</a>
       </div>
-      <div class="img-container">
+      <!-- <div class="img-container">
         <img src="https://via.placeholder.com/300x200" alt="Marketing Image 2">
-      </div>
+      </div> -->
     </div>
 
     <div class="marketing-container">
       <div class="content-container">
-        <h2>Linked In marketing</h2>
+        <h2>Linked In Marketing</h2>
         <p>At the Digital House, we offer LinkedIn marketing services to help your business connect with professionals, build authority, and generate leads. As the world’s largest professional network, LinkedIn is an invaluable tool for branding and B2B marketing.
 </p>
-        <a href="#" class="marketing-btn">Learn More</a>
+        <a href="linkedM.php" class="marketing-btn">Learn More</a>
       </div>
-      <div class="img-container">
+      <!-- <div class="img-container">
         <img src="https://via.placeholder.com/300x200" alt="Marketing Image 2">
-      </div>
+      </div> -->
     </div>
 
     <div class="marketing-container">
       <div class="content-container">
         <h2>Email Marketing </h2>
         <p>At the Digital House, we provide email marketing services to help your brand connect directly with your audience, build relationships, and drive conversions. 
-           Our team crafts targeted campaigns with compelling content, attention-grabbing designs, and clear calls to action to ensure your emails stand out and produce measurable results.</p>
-        <a href="#" class="marketing-btn">Learn More</a>
+           <!-- Our team crafts targeted campaigns with compelling content, attention-grabbing designs, and clear calls to action to ensure your emails stand out and produce measurable results. -->
+          </p>
+        <a href="emailM.php" class="marketing-btn">Learn More</a>
       </div>
-      <div class="img-container">
+      <!-- <div class="img-container">
         <img src="https://via.placeholder.com/300x200" alt="Marketing Image 2">
-      </div>
+      </div> -->
     </div>
 
     <div class="marketing-container">
       <div class="content-container">
         <h2>Influencer marketing</h2>
-        <p>Our influencer marketing services include Influencer Discovery, Campaign Strategy, Content Collaboration, Multi-Platform Campaigns, and Performance Tracking. We ensure your brand message is consistent and impactful across all influencer content, delivering measurable results to elevate your brand's presence and enhance customer loyalty.</p>
-        <a href="#" class="marketing-btn">Learn More</a>
+        <p>Our influencer marketing services include Influencer Discovery, Campaign Strategy, Content Collaboration, Multi-Platform Campaigns, and Performance Tracking.
+        <!-- We ensure your brand message is consistent and impactful across all influencer content, delivering measurable results to elevate your brand's presence and enhance customer loyalty. -->
+
+        </p>
+        <a href="influencerM.php" class="marketing-btn">Learn More</a>
       </div>
-      <div class="img-container">
+      <!-- <div class="img-container">
         <img src="https://via.placeholder.com/300x200" alt="Marketing Image 2">
-      </div>
+      </div> -->
     </div>
 
     <!-- <div class="marketing-container">

@@ -56,7 +56,13 @@
 </div>
 </div> -->
 <!-- tttttttttt -->
- 
+
+<header class="text-center py-8">
+    <hr style="width:2px;">
+            <h1 class="text-4xl font-bold">Teamwork divides the task and multiplies the success
+            </h1> 
+            <!-- <p class="teamP">welcome the team page where innovation begin</p> -->
+  </header>
 
 
 <div class="page-team">
@@ -69,7 +75,7 @@
                         <div class="team-image">
                             <a href="team-single.html" data-cursor-text="View">
                                 <figure class="image-anime">
-                                    <img src="images/team-4.jpg" alt="">
+                                    <img src="assets/images/about-us/1.jpg" alt="">
                                 </figure>
                             </a>
                 
@@ -103,7 +109,7 @@
                         <div class="team-image">
                             <a href="team-single.html" data-cursor-text="View">
                                 <figure class="image-anime">
-                                    <img src="images/team-4.jpg" alt="">
+                                    <img src="assets/images/about-us/1.jpg" alt="">
                                 </figure>
                             </a>
                 
@@ -138,7 +144,7 @@
                         <div class="team-image">
                             <a href="team-single.html" data-cursor-text="View">
                                 <figure class="image-anime">
-                                    <img src="" alt="">
+                                    <img src="assets/images/about-us/1.jpg" alt="">
                                 </figure>
                             </a>
                 

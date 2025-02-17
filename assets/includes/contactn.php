@@ -7,23 +7,37 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="assets/css/tdh.css">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <style>
-        .h-64 {
+<style>
+    .h-64 {
     height: 20rem;
     }
 
     .text-center {
-        background: var(--white-color);
+        /* background: var(--white-color); */
     }
     .flex-col {
         background: var(--white-color);
+        /* background-images:url(../images/Learn/Contact.png); */
+        
     }
     @media (min-width: 768px) {
     .md\:grid-cols-2 {
         /* grid-template-columns: repeat(2, minmax(0, 1fr)); */
     }
-}
-    </style>
+    }
+    .p-3:hover {
+        color:
+    }
+    .contact{
+        font-size:20px;
+    }
+    .contacturl {
+    /* background-image: url(../images/Contact/Contact.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0px; */
+    }
+</style>
 </head>
 <body>
 <!-- "bg-gradient-to-b from-[#0a2540] to-[#0a2540] text-white" -->
@@ -33,7 +47,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="page-header-content">
-                            <h1 class="wow fadeInUp">Contact<span>us</span></h1>
+                            <h1 class="wow fadeInUp">Contact<span> us</span></h1>
                             <nav class="wow fadeInUp" data-wow-delay="0.25s">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="index.php">home</a></li>
@@ -47,10 +61,17 @@
         </div>
     </div>
     <!-- bg-[#0f457a]  -->
+
+    <main class="contacturl flex flex-col items-center">
+    <header class="text-center py-8">
+        <h1 class="text-4xl font-bold">"Don’t be a stranger—let’s build something great together!"</h1> 
+        <br>
+        <p class="contact">We are your growth partner in addition to being a service provider! </p>
+        <p class="contact">Our team of digital marketing specialists is dedicated to providing customized strategies that complement your particular objectives.</p>
+    </header>
     <header class="text-center py-8">
         <h1 class="text-4xl font-bold">Get in Touch Today!</h1> 
     </header>
-    <main class="flex flex-col items-center">
         <div class="bg-[#0a2540] p-8 rounded-lg w-11/12 md:w-2/3 lg:w-1/2">
             <form class="space-y-4">
                 <div class="grid grid-cols-1 md:grid-cols-1 gap-4">

@@ -316,3 +316,11 @@
     const contactInfoSection = document.querySelector('.contact-info');
     contactInfoSection.classList.add('show');
 });
+
+// cOntent marketing
+
+  document.querySelectorAll('.contentcc-row').forEach(row => {
+      row.addEventListener('click', function() {
+          this.classList.toggle('active');
+      });
+  });

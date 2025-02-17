@@ -38,7 +38,7 @@
 
     <!-- First Container -->
     <div class="branding-banner">
-        <h1>Your Logo, Colors & Name—The Soul of Your Brand</h1>
+        <h1>"Your brand should inspire, not just inform."</h1>
         <!-- <p>Empowering your business with exceptional branding solutions.</p> -->
     </div>
 

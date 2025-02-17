@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta name="description" content="Reach out to one of the leading web designing, development and digital marketing company based in Raipur, Chhattisgarh, India.">
     <meta name="keywords" content="The Digital House, Currency Tower, Digital Marketing">

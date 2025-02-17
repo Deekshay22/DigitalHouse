@@ -7,6 +7,11 @@
     <meta name="author" content="The Digital House">
     <title>Online Advertising | Website Design and Development Company</title>
     <?php include 'assets/includes/head.php' ?>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <style>
+        /* Custom HR styling */
+        
+    </style>
     <style>
         :root {
       --dev-secondary-color: #F2F1ED;
@@ -16,14 +21,27 @@
       --dev-white-color: #FFFFFF;
       --dev-divider-color: #DFE1DE;
       --dev-dark-divider-color: #FFFFFF33;
-}
+        }
+        .DD-section {
+            /* max-width: 900px; */
+            background: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 2rem;
+        }
 
-/* body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-  padding: 20px;
-  background-color: var(--dev-secondary-color);
-} */
+        /* Custom HR styling */
+        .DD-section .custom-hr {
+            width: 100%;
+            height: 3px;
+            background-color: #ccc;
+            border: none;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .DD-section .feature:hover .custom-hr {
+            background-color: #007bff; /* Change color on hover */
+        }
 
 /* Hero Section */
 .dev-container {
@@ -37,15 +55,19 @@
   text-align: center;
   padding: 100px 20px;
   border-radius: 40px;
+  font-family: "Philosopher", Sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #ffffff;
 }
 
 .dev-hero-section h1 {
-  font-size: 3rem;
+  /* font-size: 3rem; */
   font-weight: bold;
 }
 
 .dev-hero-section p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin: 20px 0;
 }
 
@@ -120,7 +142,142 @@
 .dev-button-row .btn-primary:hover {
   color: var(--dev-accent-color);
 }
+/* section 3 */
+        /* .DD-section3 {
+            max-width: 1100px;
+            background: white;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 2rem;
+            text-align: center;
+        }
 
+        .industry-card {
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .industry-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        .industry-card i {
+            font-size: 2rem;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        .industry-card h5 {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .industry-card p {
+            font-size: 0.95rem;
+            color: #666;
+        }
+
+        .counting-text {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #007bff;
+            margin-top: 20px;
+        } */
+
+            /* Section Styling */
+        .DD-section3 {
+            /* max-width: 900px; */
+            max-width: 100%;
+            background: white;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 2rem;
+        }
+
+        /* Custom <details> Styling */
+        details {
+            background: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+            transition: all 0.3s ease-in-out;
+            cursor: pointer;
+        }
+
+        details[open] {
+            background: #f1f1f1;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Summary Styling */
+        summary {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #333;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* Hover effect */
+        details:hover {
+            background: #f9f9f9;
+        }
+
+        /* "And Counting..." Text */
+        .counting-text {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #007bff;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /*  */
+/* ADvertisement */
+  .DD-section-two {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 0;
+}
+
+/* Grid Styling */
+.DD-section-two .row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Logo Box */
+.logo-box {
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.logo-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Logo Image */
+.logo-box img {
+    max-width: 120px;
+    max-height: 50px;
+    object-fit: contain;
+}
     </style>
 </head>
 
@@ -147,14 +304,73 @@
         </div>
     </div>
 
-
     <div class="dev-container ">
     <div class="dev-hero-section">
-      <h1>Development Excellence</h1>
-      <p>Transform your online presence- Expert Web Development Services</p>
-      <a href="#dev-services" class="btn btn-primary">Explore Solutions</a>
+      <h1>Code. Create. Conquer</h1>
+      <p>At the Digital  House, we transform your vision into a stunning online presence. As a leading website development company, we specialize in creating custom websites and web applications to suit the unique needs of your business. Our team of experienced website developers based in Raipur, India is dedicated to providing robust solutions that help you build meaningful digital engagement and achieve sustainable growth.
+      </p>
+      <!-- <a href="#dev-services" class="btn btn-primary">Explore Solutions</a> -->
     </div>
   </div>
+
+  <!-- DD 2 section -->
+  <section class="DD-section container">
+    <!-- bg-white shadow-lg rounded p-5 -->
+        <div class="row align-items-center">
+            
+            <!-- Left Column (Heading) -->
+            <div class="col-md-5 text-center text-md-start">
+                <h1 class="fw-bold text-dark">
+                    Why Choose Our Web Development Services?
+                </h1>
+                <hr class="custom-hr">
+            </div>
+
+            <!-- Right Column (Three Features) -->
+            <div class="col-md-7">
+                
+                <!-- Feature 1 -->
+                <div class="feature mb-4">
+                    <h2 class="fs-5 fw-semibold text-dark">Comprehensive web development solutions</h2>
+                    <hr class="custom-hr">
+                    <p class="text-muted">
+                        Our services include everything from simple business websites to complex web applications. 
+                        We ensure that your website delivers a unique user experience.
+                    </p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="feature mb-4">
+                    <h2 class="fs-5 fw-semibold text-dark">Tailored strategies for diverse businesses</h2>
+                    <hr class="custom-hr">
+                    <p class="text-muted">
+                        Whether you’re a startup, small business, or established company, we build websites that match 
+                        your audience and align with your goals.
+                    </p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="feature mb-4">
+                    <h2 class="fs-5 fw-semibold text-dark">Competence in platform and technology</h2>
+                    <hr class="custom-hr">
+                    <p class="text-muted">
+                        We use modern tools, including WordPress, Shopify, PHP, and custom CMS solutions to deliver 
+                        exceptional website development services.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<!-- DD section 3 -->
+
+  <header class="text-center py-8">
+    <hr style="width:2px;">
+            <h1 class="text-4xl font-bold">Our Key Offerings
+            </h1> 
+            <!-- <p class="teamP">welcome the team page where innovation begin</p> -->
+  </header>
 
   <!-- Development Solutions Section -->
   <div class="dev-features-section" id="dev-services">
@@ -179,7 +395,7 @@
       </div>
 
       <!-- Development Flex Box 2 -->
-      <div class="dev-flex-box">
+      <!-- <div class="dev-flex-box">
         <div class="dev-icon-row">
           <i class="fas fa-database"></i>
         </div>
@@ -189,13 +405,13 @@
         <div class="dev-content-row">
           <p>As an experienced e-commerce website developer, we build secure and user-friendly online stores. From Shopify setup to WooCommerce integration, we ensure a seamless shopping experience for your customers..</p>
         </div>
-        <!-- <div class="dev-button-row">
+        <div class="dev-button-row">
           <button class="btn btn-primary">Learn More</button>
-        </div> -->
-      </div>
+        </div>
+      </div> -->
 
       <!-- Development Flex Box 3 -->
-      <div class="dev-flex-box">
+      <!-- <div class="dev-flex-box">
         <div class="dev-icon-row">
           <i class="fas fa-cloud"></i>
         </div>
@@ -206,10 +422,10 @@
           <p>For projects that require advanced functionality, our custom web application development company provides cutting-edge solutions that are secure, fast, and reliable.
           </p>
         </div>
-        <!-- <div class="dev-button-row">
+        <div class="dev-button-row">
           <button class="btn btn-primary">Learn More</button>
-        </div> -->
-      </div>
+        </div>
+      </div> -->
 
       <!-- Development Flex Box 4 -->
       <div class="dev-flex-box">
@@ -247,7 +463,7 @@
       </div>
 
       <!-- Development Flex Box 6 -->
-      <div class="dev-flex-box">
+      <!-- <div class="dev-flex-box">
         <div class="dev-icon-row">
           <i class="fas fa-cloud"></i>
         </div>
@@ -257,15 +473,169 @@
         <div class="dev-content-row">
           <p>Leverage secure and scalable cloud technologies for your business.</p>
         </div>
-        <!-- <div class="dev-button-row">
+        <div class="dev-button-row">
           <button class="btn btn-primary">Learn More</button>
-        </div> -->
-      </div>
+        </div>
+      </div> -->
      
+
+      <!-- toggle function without javascript  -->
+      <!-- <details>
+      <summary>Why Choose Our Web Development Services?</summary>
+      <p>Our web development services cover everything from business websites to complex applications, ensuring an excellent user experience.</p>
+      </details> -->
 
       <!-- Additional Boxes (Add more as needed) -->
     </div>
   </div>
+
+  <!-- section3 -->
+  <!-- <section class="DD-section3 container">
+        <h2 class="fw-bold text-dark mb-4">Industries We Serve</h2>
+        <div class="row g-4">
+            
+            <div class="col-md-4">
+                <div class="industry-card p-3">
+                    <i class="fas fa-shopping-cart"></i>
+                    <h5>E-commerce</h5>
+                    <p>Expertly crafted websites that drive sales and customer loyalty.</p>
+                </div>
+            </div>
+
+          
+            <div class="col-md-4">
+                <div class="industry-card p-3">
+                    <i class="fas fa-hospital"></i>
+                    <h5>Healthcare</h5>
+                    <p>Accessible web development solutions for the healthcare sector.</p>
+                </div>
+            </div>
+
+       
+            <div class="col-md-4">
+                <div class="industry-card p-3">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h5>Education</h5>
+                    <p>Interactive platforms for schools, colleges, and e-learning providers.</p>
+                </div>
+            </div>
+
+     
+            <div class="col-md-4">
+                <div class="industry-card p-3">
+                    <i class="fas fa-plane"></i>
+                    <h5>Travel & Hospitality</h5>
+                    <p>Engaging websites to enhance guest experiences.</p>
+                </div>
+            </div>
+
+    
+            <div class="col-md-4">
+                <div class="industry-card p-3">
+                    <i class="fas fa-microchip"></i>
+                    <h5>Technology</h5>
+                    <p>Dynamic web applications for tech-driven businesses.</p>
+                </div>
+            </div>
+
+    
+            <div class="col-md-4">
+                <div class="industry-card p-3">
+                    <i class="fas fa-rocket"></i>
+                    <h5>Startups</h5>
+                    <p>Affordable, scalable web solutions for new ventures.</p>
+                </div>
+            </div>
+
+        </div>
+  </section> -->
+
+  <section class="DD-section3 container">
+        <h2 class="fw-bold text-dark mb-4 text-center">Industries We Serve</h2>
+
+        <!-- E-commerce -->
+        <details>
+            <summary><i class="fas fa-shopping-cart"></i> E-commerce</summary>
+            <p>Expertly crafted websites that drive sales and customer loyalty.</p>
+        </details>
+
+        <!-- Healthcare -->
+        <details>
+            <summary><i class="fas fa-hospital"></i> Healthcare</summary>
+            <p>Accessible web development solutions for the healthcare sector.</p>
+        </details>
+
+        <!-- Education -->
+        <details>
+            <summary><i class="fas fa-graduation-cap"></i> Education</summary>
+            <p>Interactive platforms for schools, colleges, and e-learning providers.</p>
+        </details>
+
+        <!-- Travel and Hospitality -->
+        <details>
+            <summary><i class="fas fa-plane"></i> Travel & Hospitality</summary>
+            <p>Engaging websites to enhance guest experiences.</p>
+        </details>
+
+        <!-- Technology -->
+        <details>
+            <summary><i class="fas fa-microchip"></i> Technology</summary>
+            <p>Dynamic web applications for tech-driven businesses.</p>
+        </details>
+
+        <!-- Startups -->
+        <details>
+            <summary><i class="fas fa-rocket"></i> Startups</summary>
+            <p>Affordable, scalable web solutions for new ventures.</p>
+        </details>
+
+    </section>
+<!--  -->
+
+<section class="DD-section-two container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
+            <!-- Logos -->
+            <div class="col">
+                <div class="logo-box"><img src="wordpress-logo.png" alt="WordPress"></div>
+            </div>
+            <div class="col">
+                <div class="logo-box"><img src="magento-logo.png" alt="Shopify"></div>
+            </div>
+            <div class="col">
+                <div class="logo-box"><img src="angular-logo.png" alt="AngularJS"></div>
+            </div>
+            <div class="col">
+                <div class="logo-box"><img src="bigcommerce-logo.png" alt="BigCommerce"></div>
+            </div>
+            <!-- <div class="col">
+                <div class="logo-box"><img src="duda-logo.png" alt="Duda"></div>
+            </div>
+            <div class="col">
+                <div class="logo-box"><img src="joomla-logo.png" alt="Joomla"></div>
+            </div>
+            <div class="col">
+                <div class="logo-box"><img src="laravel-logo.png" alt="Laravel"></div>
+            </div> -->
+            <!-- <div class="col">
+                <div class="logo-box"><img src="react-logo.png" alt="React JS"></div>
+            </div>
+            <div class="col">
+                <div class="logo-box"><img src="opencart-logo.png" alt="OpenCart"></div>
+            </div>
+            <div class="col">
+                <div class="logo-box"><img src="shopify-logo.png" alt="Shopify"></div>
+            </div>
+            <div class="col">
+                <div class="logo-box"><img src="weebly-logo.png" alt="Weebly"></div>
+            </div>
+            <div class="col">
+                <div class="logo-box"><img src="wix-logo.png" alt="Wix.com"></div>
+            </div> -->
+        </div>
+    </section>
+
+
+
 
    
 

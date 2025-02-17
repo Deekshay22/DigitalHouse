@@ -62,10 +62,11 @@
                     </div>
                     <!-- Header Btn Start -->
                     <div class="header-btn d-inline-flex">
-                        <!-- <a href="tel:+918602020267" class="btn-phone"><i class="fa-solid fa-phone-volume"></i>86-020202-67</a> -->
+                        <a href="https://shorturl.at/kNLXq" class="btn-phone"><i class="fa-solid fa-people-arrows"></i>Consultation</a>
                         <a href="#" class="btn-default"><i class="fa-brands fa-whatsapp"></i></a>
                     </div>
                     <!-- Header Btn End -->
+                    <!-- <i class="fa-solid fa-phone-volume"> tel:+918602020267 -->
                 </div>
                 <!-- Main Menu End -->
                 <div class="navbar-toggle"></div>

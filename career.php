@@ -19,7 +19,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="page-header-content">
-                            <h1 class="wow fadeInUp">Careers at the Digital House<span></span></h1>
+                            <h1 class="wow fadeInUp">Career<span>s</span></h1>
                             <nav class="wow fadeInUp" data-wow-delay="0.25s">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="index.php">home</a></li>
@@ -33,10 +33,19 @@
         </div>
     </div>
 
-    <!-- <div class="career-container" id="services-container"> -->
-    
+    <!-- <div class="career-container" id="services-container"> -->  
   </div>
   <!-- career info -->
+
+  <header class="text-center py-8">
+        <h1 class="text-4xl font-bold"> Your passion deserves a purpose—find it with us</h1> 
+        <br>
+        <p class="contact">At the Digital House, we view marketing as an art and science that propels change, not just a strategy. 
+          <br>Our forward-thinking digital marketing agency, <br>which is based in Raipur, India, is committed to developing creative solutions that support brands' expansion and success in the Digital sphere </p>
+        <p class="contact">Joining our team entails being a part of a vibrant, encouraging, and cooperative setting where strategy and creativity coexist.
+          <br> We have a strong desire to enable our employees to realize their full potential and provide our clients with exceptional outcomes.
+        </p>
+    </header>
 <div class="infocc">
   <div class="career-coninfo-form-container" career-coninfo>
     <h2>Contact Us</h2>
@@ -59,7 +68,8 @@
       </div>
       <br>
       <div class="g-recaptcha" data-sitekey="6Ld8zcgqAAAAAB0v7d_837czLG_9J2ETlmW7zKnj"></div>
-      <button type="submit" class="btn btn-primary btn-block btn-default">Submit</button>
+      <!-- <button type="submit" class="btn btn-primary btn-block btn-default">Submit</button> -->
+      <button type="submit" class=" btn-primary btn-block btn-default">Submit</button>
     </form>
   </div>
 </div>

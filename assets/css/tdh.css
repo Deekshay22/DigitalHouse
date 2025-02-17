@@ -1,7 +1,7 @@
 .collapse{visibility:visible;}
 
 .btn-default i {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .navbar {
@@ -109,7 +109,39 @@ header.main-header {
   margin: 0 0 20px 0;
   color:#52a8da;
 }
+/* Advertisement button */
+.AD-btn {
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  margin-top: 15px;         
+}
 
+.AD-primary {
+  background-color: #007bff; 
+  color: white;              
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.AD-primary:hover {
+  background-color: #0056b3; 
+  transform: scale(1.05);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .AD-primary {
+      width: 100%; /* Full width on small screens */
+      text-align: center;
+      padding: 12px;
+  }
+}
 
 /* all padding start*/
 .about-us,
@@ -255,7 +287,7 @@ header.main-header {
   justify-content: space-around;
 }
 .page-header {
-  background: url("../images/about-us/About.png");
+  background: url("../images/about-us/DEE.png");
   /* background-image: linear-gradient(to right, var(--dark-color) 0%, var(--accent-color) 50%, var(--dark-color) 100%); */
   background-size: cover;
   background-repeat: no-repeat;
@@ -773,6 +805,7 @@ video {
   gap: 20px;
   transition: all 3s ease-in-out;
   align-items: center;
+  border: 2px solid #989817;
 }
 .marketing-container:hover {
   background-color: #aec3d8;
@@ -781,7 +814,7 @@ video {
 
 .marketing-container .content-container {
   flex: 1;
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 
 .marketing-container .img-container img {
@@ -808,7 +841,8 @@ video {
   color: #ffffff;
   margin: 15px;
   padding: 10px 20px;
-  border-radius: 0px 50px;
+  /* border-radius: 0px 50px; */
+  border-radius: 10px 0px;
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
@@ -825,8 +859,7 @@ video {
   }
 
   .marketing-container {
-    flex: 1 1 100%; /* One container per row on medium screens */
-    
+    flex: 1 1 100%; /* One container per row on medium screens */  
   }
 }
 @media (max-width: 768px) {
@@ -1045,50 +1078,7 @@ video {
   transition: all 0.4s ease-in-out;
 }
 
-/* .career-coninfo-form-container .btn-primary:hover {
-  background-color: var(--secondary-color);
-} */
-
-/* Advertisement */
-/* .AD-container {
-  position: relative;
-  max-width: 600px;
-  width: 100%;
-  padding: 20px;
-  background: white;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  text-align: center;
-  margin: auto;
-}
-    .AD-circle {
-      width: 250px;
-      border-radius: 50% 50%;
-      overflow: hidden;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-    .AD-text-overlay {
-      position: absolute;
-      width: 100%;
-      text-align: center;
-      font-size: 20px;
-      font-style: italic;
-      font-weight: bold;
-      color: gray;
-    }
-    .AD-position-text {
-      font-size: 14px;
-      font-weight: 500;
-      color: #555;
-    }
-    .AD-wrapper {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 50vh;
-      margin: 2rem;
-    } */
-
+/*  */
     .dd-container {
       display: flex;
       justify-content: center;
@@ -1192,5 +1182,224 @@ video {
           max-width: 300px;
       }
   }
+
+/* lear-more content marketing */
+.contentcc-marketing-section {
+  padding: 50px 0;
+  /* background-color: #f8f9fa; Light Gray Background */
+  animation-name: background;
+  animation-duration: 6s;
+  background-image: url(../images/Learn/LL.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0px;
+  transition: all 0.3ease-in-out;
+}
+@keyframes background {
+25% {background-image: url(../images/Learn/BGLL.png) ;}
+
+}
+
+/* Container Styling */
+.contentcc-marketing-container {
+  max-width: 1100px;
+  /* max-width: 100%; */
+  margin: auto;
+  /* display: flex; */
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 30px;
+  /* background: white; */
+  border-radius: 10px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+/* Content Styling */
+.contentcc-marketing-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.contentcc-marketing-heading {
+  font-size: 28px;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.contentcc-marketing-text {
+  font-size: 22px;
+  font-weight: 400;
+  color: #555;
+  /* color: #ffe7e7; */
+  line-height: 1.6;
+}
+
+/* Button Styling */
+.contentcc-marketing-btn {
+  display: inline-block;
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.contentcc-marketing-btn:hover {
+  background: #7ae29d;
+}
+
+/* Image Styling */
+.contentcc-marketing-img-container img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contentcc-marketing-container {
+      flex-direction: column;
+      text-align: center;
+  }
+}
+
+/*  */
+:root {
+  --dev-secondary-color: #F2F1ED;
+  --dev-text-color: #8F8F8F;
+  --dev-accent-color: #73ed7c;
+  --dev-dark-color: #019297;
+  --dev-white-color: #FFFFFF;
+  --dev-divider-color: #DFE1DE;
+  --dev-dark-divider-color: #FFFFFF33;
+    }
+    .DD-section {
+        max-width: 1100px;
+        background: white;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        padding: 2rem;
+    }
+
+    /* Custom HR styling */
+    .DD-section .custom-hr {
+        width: 100%;
+        height: 3px;
+        background-color: #ccc;
+        border: none;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .DD-section .feature:hover .custom-hr {
+        background-color: #007bff; /* Change color on hover */
+    }
+
+    .DD-section-two {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 0;
+  }
   
+  /* Grid Styling */
+  .DD-section-two .row {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+  }
   
+  /* Logo Box */
+  .logo-box {
+      background: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100px;
+      transition: all 0.3s ease-in-out;
+  }
+  
+  /* Hover Effect */
+  .logo-box:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Logo Image */
+  .logo-box img {
+      max-width: 120px;
+      max-height: 50px;
+      object-fit: contain;
+  }
+
+   Content marketing
+  .contentcc-section {
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+}
+
+/* Container Styling */
+.contentcc-container {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Row Styling */
+.contentcc-row {
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    cursor: pointer;
+}
+
+/* h3 Styling with Hover Effect */
+.contentcc-row h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.contentcc-row h3::after {
+    /* content: ""; */
+    width: 0;
+    height: 2px;
+    background: #007bff;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: width 0.3s ease-in-out;
+}
+
+.contentcc-row:hover h3 {
+    /* color: #007bff; */
+    /* color: #9cc0e7; */
+    color:#4e1305;
+}
+
+.contentcc-row:hover h3::after {
+    width: 100%;
+}
+
+/* p Tag Styling */
+.contentcc-text {
+    font-size: 18px;
+    font-style: italic;
+    /* color: #555; */
+    /* color: #f3eeee; */
+    display: none; /* Initially Hidden */
+    font-family: "Georgia", serif;
+    padding: 1rem;
+}
+
+/* Show p when Row is Clicked */
+.contentcc-row.active .contentcc-text {
+    display: block;
+}
