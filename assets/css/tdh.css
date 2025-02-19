@@ -1050,7 +1050,8 @@ video {
 }
 .career-coninfo-form-container {
   max-width: 600px;
-  margin: 50px auto;
+  /* margin: 50px auto; */
+  margin: auto;
   padding: 20px;
   background: #fff;
   /* background: transparent; */

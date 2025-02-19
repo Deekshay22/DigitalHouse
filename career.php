@@ -121,7 +121,7 @@ $conn->close();
         <br>
         <div class="g-recaptcha" data-sitekey="6Ld8zcgqAAAAAB0v7d_837czLG_9J2ETlmW7zKnj"></div>
         <!-- <button type="submit" class="btn btn-primary btn-block btn-default">Submit</button> -->
-        <button type="submit" name="submit" class=" btn-primary btn-block btn-default">Submit</button>
+        <button type="submit" name="submit" class=" btn-primary career-job-button btn-block btn-default">Submit</button>
       </form>
     </div>
   </div>
