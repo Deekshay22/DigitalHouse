@@ -88,16 +88,26 @@ $conn->close();
   </div>
   <!-- career info -->
 
-  <header class="text-center py-8">
-    <h1 class="text-4xl font-bold"> Your passion deserves a purpose—find it with us</h1>
-    <br>
-    <p class="contact">At the Digital House, we view marketing as an art and science that propels change, not just a strategy.
-      <br>Our forward-thinking digital marketing agency, <br>which is based in Raipur, India, is committed to developing creative solutions that support brands' expansion and success in the Digital sphere
-    </p>
-    <p class="contact">Joining our team entails being a part of a vibrant, encouraging, and cooperative setting where strategy and creativity coexist.
-      <br> We have a strong desire to enable our employees to realize their full potential and provide our clients with exceptional outcomes.
-    </p>
-  </header>
+  <header class="text-center py-16 px-6 bg-gradient-to-r from-blue-50 to-gray-100 shadow-md">
+        <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight relative inline-block">
+            Your passion deserves a purpose—find it with us
+            <span class="block w-16 h-1 bg-blue-500 mx-auto mt-2 rounded"></span>
+        </h1>
+        <div class="max-w-3xl mx-auto mt-6 space-y-4">
+            <p class="text-lg text-gray-700 leading-relaxed">
+                At <span class="font-semibold text-blue-600">Digital House</span>, we view marketing as an 
+                <span class="italic text-blue-500">art and science</span> that propels change, not just a strategy.
+                <br>Our forward-thinking digital marketing agency, based in <span class="font-semibold text-blue-600">Raipur, India</span>, 
+                is committed to developing creative solutions that support brands' expansion and success in the digital sphere.
+            </p>
+            <p class="text-lg text-gray-700 leading-relaxed">
+                Joining our team means being a part of a 
+                <span class="font-semibold text-blue-600">vibrant, encouraging, and cooperative</span> environment where 
+                <span class="text-blue-500">strategy and creativity</span> coexist.
+                <br>We empower our employees to realize their full potential and deliver exceptional outcomes.
+            </p>
+        </div>
+    </header>
   <div class="infocc">
     <div class="career-coninfo-form-container" career-coninfo>
       <h2>Contact Us</h2>

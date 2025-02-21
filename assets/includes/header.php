@@ -57,7 +57,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li> -->
-                            <li class="nav-item"><a class="nav-link" href="Blog.php">Blogs</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../../../wordpress/">Blogs</a></li>
                             <li class="nav-item"><a class="nav-link" href="contactus.php">Contact Us</a></li>
                         </ul>
                     </div>
