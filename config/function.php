@@ -1,11 +1,19 @@
 <?php
 
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+require 'vendor/autoload.php';
+
+
+
 // Function to handle file upload
-function uploadFile($fileInputName, $targetDir = "uploads/", $maxFileSize = 5000000, $allowedTypes = ['jpg', 'jpeg', 'png', 'gif']) {
+function uploadFile($fileInputName, $targetDir = "uploads/", $maxFileSize = 5000000, $allowedTypes = ['jpg', 'jpeg', 'png', 'gif'])
+{
     // Check if file is uploaded
     if (isset($_FILES[$fileInputName])) {
         $file = $_FILES[$fileInputName];
-        
+
         // Define target file path
         $targetFile = $targetDir . basename($file["name"]);
         $imageFileType = strtolower(pathinfo($targetFile, PATHINFO_EXTENSION));
@@ -46,4 +54,43 @@ function uploadFile($fileInputName, $targetDir = "uploads/", $maxFileSize = 5000
     }
 }
 
-?>
+
+
+
+function sendEmail($user_email, $user_name, $user_message)
+{
+    $mail = new PHPMailer(true);
+
+    try {
+        // SMTP Configuration
+        $mail->isSMTP();
+        $mail->Host = 'smtp.gmail.com';
+        $mail->SMTPAuth = true;
+        $mail->Username = 'vaibhavgupta0320@gmail.com'; // User email used to send the email
+        $mail->Password = 'wzyt akdd vgfp fbqq'; // Use Gmail App Password
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+        $mail->Port = 587;
+
+        // Sender & Receiver
+        $mail->setFrom('vaibhavgupta0320@gmail.com', $user_name);
+        $mail->addAddress('vg3997755@gmail.com'); // Company email to receive inquiries
+
+        // Email Content
+        $mail->isHTML(true);
+        $mail->Subject = "New Inquiry from " . $user_name;
+        $mail->Body = "
+        <html>
+        <head><title>Contact Form Submission</title></head>
+        <body>
+            <h3>New Inquiry from $user_name</h3>
+            <p><strong>Email:</strong> $user_email</p>
+            <p><strong>Message:</strong> $user_message</p>
+        </body>
+        </html>";
+
+        // Send Email
+        return $mail->send();
+    } catch (Exception $e) {
+        return false;
+    }
+}

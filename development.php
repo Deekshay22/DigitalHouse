@@ -593,19 +593,19 @@
 <!--  -->
 
 <section class="DD-section-two container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-3">
             <!-- Logos -->
             <div class="col">
-                <div class="logo-box"><img src="wordpress-logo.png" alt="WordPress"></div>
+                <div class="logo-box"><img src="assets/images/development/wordpress.png" alt="WordPress"></div>
             </div>
             <div class="col">
-                <div class="logo-box"><img src="magento-logo.png" alt="Shopify"></div>
+                <div class="logo-box"><img src="assets/images/development/shopify.png" alt="Shopify"></div>
             </div>
             <div class="col">
-                <div class="logo-box"><img src="angular-logo.png" alt="AngularJS"></div>
+                <div class="logo-box"><img src="assets/images/development/angular.png" alt="AngularJS"></div>
             </div>
             <div class="col">
-                <div class="logo-box"><img src="bigcommerce-logo.png" alt="BigCommerce"></div>
+                <div class="logo-box"><img src="assets/images/development/bigcommerce.png" alt="BigCommerce"></div>
             </div>
             <!-- <div class="col">
                 <div class="logo-box"><img src="duda-logo.png" alt="Duda"></div>

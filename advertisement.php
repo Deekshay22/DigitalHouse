@@ -164,7 +164,7 @@
             <h4>The Digital House</h4>
             <h1><span class="overlay-text">afri</span><span class="highlight-text">thrive</span> Digitally</h1>
             <p>
-            At The Digital House, we specialize in connecting your brand with the right audience through targeted advertising 
+            At the Digital House, we specialize in connecting your brand with the right audience through targeted advertising 
             that delivers measurable results. With over 5 years of experience and more than 50 satisfied clients, 
             we create tailored advertising campaigns that drive growth, increase conversions, and boost online visibility. 
             Our team leverages Google PPC, Meta ads (Facebook & Instagram), LinkedIn, Snapchat, and other platforms to craft strategies aligned with your business goals. 

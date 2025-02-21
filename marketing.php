@@ -79,7 +79,7 @@
     
     <div class="marketing-container" >
       <div class="content-container">
-        <h2>Social media marketing</h2>
+        <h2>Social Media Marketing</h2>
         <p>At the Digital House, we offer expert social media marketing services to help your brand grow and engage with your audience across all platforms. Social media is a powerful tool for boosting brand awareness, engaging customers, and achieving your business goals.
       <!-- Our team specializes in creating tailored strategies, crafting captivating content, and executing performance-driven campaigns to drive results.  -->
     </p>
