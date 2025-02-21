@@ -178,7 +178,7 @@
                         <div class="team-image">
                             <a href="team-single.html" data-cursor-text="View">
                                 <figure class="image-anime">
-                                    <img src="assets/images/team/photo_1.jpg" alt="">
+                                    <img src="assets/images/team/Prince.jpg" alt="">
                                 </figure>
                             </a>
                 
@@ -282,7 +282,7 @@
                         <div class="team-image">
                             <a href="team-single.html" data-cursor-text="View">
                                 <figure class="image-anime">
-                                    <img src="images/team-6.jpg" alt="">
+                                    <img src="./assets/images/team/archi.jpg" alt="jpg">
                                 </figure>
                             </a>
                 
@@ -302,8 +302,8 @@
                 
                         <!-- Team Content Start -->
                         <div class="team-content">
-                            <h3>david wilson</h3>
-                            <p>operations manager</p>
+                            <h3>Archi Rathore</h3>
+                            <p>social media manager</p>
                         </div>
                         <!-- Team Content End -->
                     </div>
