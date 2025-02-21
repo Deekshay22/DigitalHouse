@@ -50,7 +50,7 @@
                 <div class="swiper-slide">
                     <div class="hero-slide">
                         <div class="hero-slider-image">
-                            <img src="assets/images/slider/slider-2.jpg" alt="The Digital House, Currency Tower, Raipur">
+                            <img src="assets/images/slider/DSC08814.jpg" alt="The Digital House, Currency Tower, Raipur">
                         </div>
 
                         <div class="hero-section">

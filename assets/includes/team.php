@@ -75,7 +75,7 @@
                         <div class="team-image">
                             <a href="team-single.html" data-cursor-text="View">
                                 <figure class="image-anime">
-                                    <img src="assets/images/about-us/1.jpg" alt="">
+                                    <img src="assets/images/team/Nayra_mm.jpg" alt="">
                                 </figure>
                             </a>
                 
@@ -109,7 +109,7 @@
                         <div class="team-image">
                             <a href="team-single.html" data-cursor-text="View">
                                 <figure class="image-anime">
-                                    <img src="assets/images/about-us/1.jpg" alt="">
+                                    <img src="assets/images/team/1.jpg" alt="">
                                 </figure>
                             </a>
                 
@@ -144,7 +144,7 @@
                         <div class="team-image">
                             <a href="team-single.html" data-cursor-text="View">
                                 <figure class="image-anime">
-                                    <img src="assets/images/about-us/1.jpg" alt="">
+                                    <img src="assets/images/team/chetanSir.jpg" alt="">
                                 </figure>
                             </a>
                 
@@ -178,7 +178,7 @@
                         <div class="team-image">
                             <a href="team-single.html" data-cursor-text="View">
                                 <figure class="image-anime">
-                                    <img src="assets/images/team/photos_1.png" alt="">
+                                    <img src="assets/images/team/photo_1.jpg" alt="">
                                 </figure>
                             </a>
                 
@@ -197,8 +197,8 @@
                 
                         <!-- Team Content Start -->
                         <div class="team-content">
-                            <h3>Aman Sahu</h3>
-                            <p>Head Video Editor</p>
+                            <h3>Prince</h3>
+                            <p>Motion Graphic Editor</p>
                         </div>
                         <!-- Team Content End -->
                     </div>
@@ -212,7 +212,7 @@
                         <div class="team-image">
                             <a href="team-single.html" data-cursor-text="View">
                                 <figure class="image-anime">
-                                    <img src="assets/images/team/Untitled-1.png" alt="">
+                                    <img src="assets/images/team/Mahendra.jpg" alt="">
                                 </figure>
                             </a>
                 
@@ -232,8 +232,8 @@
                 
                         <!-- Team Content Start -->
                         <div class="team-content">
-                            <h3>Himanshi Shadija</h3>
-                            <p>Motion Graphic Editor</p>
+                            <h3>Mahendra Netam</h3>
+                            <p>Video Editor</p>
                         </div>
                         <!-- Team Content End -->
                     </div>
@@ -247,7 +247,7 @@
                         <div class="team-image">
                             <a href="team-single.html" data-cursor-text="View">
                                 <figure class="image-anime">
-                                    <img src="assets/images/team/photos.png" alt="">
+                                    <img src="assets/images/team/Mouli.jpg" alt="">
                                 </figure>
                             </a>
                 
@@ -267,8 +267,8 @@
                 
                         <!-- Team Content Start -->
                         <div class="team-content">
-                            <h3>Deeksha Yadav</h3>
-                            <p>Web Developer</p>
+                            <h3>Mouli Bajaj</h3>
+                            <p>Social Media Manager</p>
                         </div>
                         <!-- Team Content End -->
                     </div>

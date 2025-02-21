@@ -213,7 +213,7 @@
     </div>
 
     
-    <?php include 'assets/includes/testimonials.php' ?>
+    <!-- php include 'assets/includes/testimonials.php'  -->
 
     <?php include 'assets/includes/footer.php' ?>
 
