@@ -20,3 +20,4 @@
 <script>
     document.getElementById('getYear').textContent = new Date().getFullYear();
 </script>
+<script src='https://cdn.jsdelivr.net/npm/sweetalert2@11.17.2/dist/sweetalert2.all.min.js'></script>

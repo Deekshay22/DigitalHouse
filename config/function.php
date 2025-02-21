@@ -67,7 +67,7 @@ function sendEmail($user_email, $user_name, $user_message)
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'vaibhavgupta0320@gmail.com'; // User email used to send the email
-        $mail->Password = 'wzyt akdd vgfp fbqq'; // Use Gmail App Password
+        $mail->Password = ''; // Use Gmail App Password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 

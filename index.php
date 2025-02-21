@@ -35,8 +35,8 @@
                                             </div>
 
                                             <div class="hero-btn wow fadeInUp" data-wow-delay="0.6s">
-                                                <a href="#" class="btn-default">Get in Touch</a>
-                                                <a href="ourservices.php" class="btn-default btn-highlighted">Our Services</a>
+                                                <a href="contactus.php" class="btn-default">Get in Touch</a>
+                                                <a href="#" class="btn-default btn-highlighted">Our Services</a>
                                             </div>
                                         </div>
                                     </div>

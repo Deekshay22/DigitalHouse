@@ -20,15 +20,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])) {
     // Execute the query
     if ($stmt->execute()) {
         // Success: show SweetAlert
-        echo "<script src='https://cdn.jsdelivr.net/npm/sweetalert2@11.17.2/dist/sweetalert2.all.min.js'></script>";
-        echo "<link href='https://cdn.jsdelivr.net/npm/sweetalert2@11.17.2/dist/sweetalert2.min.css' rel='stylesheet'>";
         echo "<script>
-                Swal.fire({
-                    title: 'Message Send Successfully',
-                    icon: 'success',
-                    draggable: true
-                });
-              </script>";
+        document.addEventListener('DOMContentLoaded', function() {
+            Swal.fire({
+                title: 'Message Send Successfully',
+                icon: 'success',
+                draggable: true
+            });
+            });
+        </script>";
     } else {
         echo "Error: " . $stmt->error;
     }
@@ -82,9 +82,9 @@ $conn->close();
 
         .contacturl {
             /* background-image: url(../images/Contact/Contact.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 0px; */
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 0px; */
         }
     </style>
 </head>
