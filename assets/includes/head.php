@@ -15,3 +15,4 @@
 <link rel="stylesheet" href="assets/css/mousecursor.css">
 <link href="assets/css/custom.css" rel="stylesheet">
 <link href="assets/css/tdh.css" rel="stylesheet">
+<link href='https://cdn.jsdelivr.net/npm/sweetalert2@11.17.2/dist/sweetalert2.min.css' rel='stylesheet'>

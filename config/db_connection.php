@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";  // your server name
 $username = "root";         // your database username
-$password = "systemd";             // your database password
+$password = "";             // your database password
 $dbname = "thedigitalhouse";  // your database name
 
 // Create connection
