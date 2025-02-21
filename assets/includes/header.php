@@ -63,7 +63,7 @@
                     </div>
                     <!-- Header Btn Start -->
                     <div class="header-btn d-inline-flex">
-                        <a href="https://shorturl.at/kNLXq" class="btn-phone"><i class="fa-solid fa-people-arrows"></i>Consultation</a>
+                        <!-- <a href="https://shorturl.at/kNLXq" class="btn-phone"><i class="fa-solid fa-people-arrows"></i>Consultation</a> -->
                         <a href="consultation.php" class="btn-phone"><i class="fa-solid fa-people-arrows"></i>Consultation</a>
                         <a href="#" class="btn-default"><i class="fa-brands fa-whatsapp"></i></a>
                     </div>
