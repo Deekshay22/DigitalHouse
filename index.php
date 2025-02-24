@@ -50,7 +50,7 @@
                 <div class="swiper-slide">
                     <div class="hero-slide">
                         <div class="hero-slider-image">
-                            <img src="assets/images/slider/DSC08814.jpg" alt="The Digital House, Currency Tower, Raipur">
+                            <img src="assets/images/slider/Main BG.webp" alt="The Digital House, Currency Tower, Raipur">
                         </div>
 
                         <div class="hero-section">
@@ -518,10 +518,11 @@
                             <span><img src="assets/images/asterisk-icon.svg" alt="The Digital House, Currency Tower, Raipur">Branding</span>
                             <span><img src="assets/images/asterisk-icon.svg" alt="The Digital House, Currency Tower, Raipur">Marketing</span>
                         </div>
-
+                        
                         <div class="scrolling-content">
                             <span><img src="assets/images/asterisk-icon.svg" alt="The Digital House, Currency Tower, Raipur">Advertisement</span>
-                            <span><img src="assets/images/asterisk-icon.svg" alt="The Digital House, Currency Tower, Raipur">Web Development</span>
+                            <span><img src="assets/images/asterisk-icon.svg" alt="The Digital House, Currency Tower, Raipur">
+                            Web Development</span>
                             <!-- <span><img src="assets/images/asterisk-icon.svg" alt="The Digital House, Currency Tower, Raipur">Paid Advertisement</span> -->
                         </div>
                     </div>

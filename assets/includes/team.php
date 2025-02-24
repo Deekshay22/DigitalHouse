@@ -70,81 +70,12 @@
             <div class="row">
             <div class="col-lg-4 col-md-6">
                     <!-- Team Member Item Start -->
-                    <div class="team-member-item wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
-                        <!-- Team Image Start -->
-                        <div class="team-image">
-                            <a href="team-single.html" data-cursor-text="View">
-                                <figure class="image-anime">
-                                    <img src="assets/images/team/Nayra_mm.jpg" alt="">
-                                </figure>
-                            </a>
-                
-                            <!-- Team Social Icon Start -->
-                            <!-- <div class="team-social-icon">
-                                <ul>
-                                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                                </ul>
-                            </div> -->
-                            <!-- Team Social Icon End -->
-                        </div>
-                        <!-- Team Image End -->
-                
-                        <!-- Team Content Start -->
-                        <div class="team-content">
-                            <h3>Nayra Jaswani</h3>
-                            <p>human resources specialist</p>
-                        </div>
-                        <!-- Team Content End -->
-                    </div>
-                    <!-- Team Member Item End -->
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <!-- Team Member Item Start -->
-                    <div class="team-member-item wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
-                        <!-- Team Image Start -->
-                        <div class="team-image">
-                            <a href="team-single.html" data-cursor-text="View">
-                                <figure class="image-anime">
-                                    <img src="assets/images/team/1.jpg" alt="">
-                                </figure>
-                            </a>
-                
-                            <!-- Team Social Icon Start -->
-                            <!-- <div class="team-social-icon">
-                                <ul>
-                                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                                </ul>
-                            </div> -->
-
-                            <!-- Team Social Icon End -->
-                        </div>
-                        <!-- Team Image End -->
-                
-                        <!-- Team Content Start -->
-                        <div class="team-content">
-                            <h3>Gaurav Panjwani </h3>
-                            <p>human resources specialist</p>
-                        </div>
-                        <!-- Team Content End -->
-                    </div>
-                    <!-- Team Member Item End -->
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <!-- Team Member Item Start -->
                     <div class="team-member-item wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                         <!-- Team Image Start -->
                         <div class="team-image">
                             <a href="team-single.html" data-cursor-text="View">
                                 <figure class="image-anime">
-                                    <img src="assets/images/team/chetanSir.jpg" alt="">
+                                    <img src="assets/images/team/chetan.webp" alt="">
                                 </figure>
                             </a>
                 
@@ -172,13 +103,82 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6">
+                  
+                    <div class="team-member-item wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+                       
+                        <div class="team-image">
+                            <a href="team-single.html" data-cursor-text="View">
+                                <figure class="image-anime">
+                                    <img src="assets/images/team/.webp" alt="">
+                                </figure>
+                            </a>
+                
+                            <!-- Team Social Icon Start -->
+                            <!-- <div class="team-social-icon">
+                                <ul>
+                                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                                </ul>
+                            </div> -->
+                            <!-- Team Social Icon End -->
+                        </div>
+                        <!-- Team Image End -->
+                
+                        <!-- Team Content Start -->
+                        <div class="team-content">
+                            <h3></h3>
+                            <p></p>
+                        </div>
+              
+                    </div>
+             
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <!-- Team Member Item Start -->
+                    <div class="team-member-item wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+                        <!-- Team Image Start -->
+                        <div class="team-image">
+                            <a href="team-single.html" data-cursor-text="View">
+                                <figure class="image-anime">
+                                    <img src="assets/images/team/webp" alt="">
+                                </figure>
+                            </a>
+                
+                            <!-- Team Social Icon Start -->
+                            <!-- <div class="team-social-icon">
+                                <ul>
+                                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                                </ul>
+                            </div> -->
+
+                            <!-- Team Social Icon End -->
+                        </div>
+                        <!-- Team Image End -->
+                
+                        <!-- Team Content Start -->
+                        <div class="team-content">
+                            <h3>Sudipta roy</h3>
+                            <p>Content Writter</p>
+                        </div>
+                        <!-- Team Content End -->
+                    </div>
+                    <!-- Team Member Item End -->
+                </div>
+
+                <div class="col-lg-4 col-md-6">
                     <!-- Team Member Item Start -->
                     <div class="team-member-item wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
                         <!-- Team Image Start -->
                         <div class="team-image">
                             <a href="team-single.html" data-cursor-text="View">
                                 <figure class="image-anime">
-                                    <img src="assets/images/team/Prince.jpg" alt="">
+                                    <img src="assets/images/team/prince.webp" alt="">
                                 </figure>
                             </a>
                 
@@ -212,7 +212,7 @@
                         <div class="team-image">
                             <a href="team-single.html" data-cursor-text="View">
                                 <figure class="image-anime">
-                                    <img src="assets/images/team/Mahendra.jpg" alt="">
+                                    <img src="assets/images/team/mahendra.webp" alt="">
                                 </figure>
                             </a>
                 
@@ -247,7 +247,7 @@
                         <div class="team-image">
                             <a href="team-single.html" data-cursor-text="View">
                                 <figure class="image-anime">
-                                    <img src="assets/images/team/Mouli.jpg" alt="">
+                                    <img src="assets/images/team/mouli.webp" alt="">
                                 </figure>
                             </a>
                 
@@ -282,7 +282,7 @@
                         <div class="team-image">
                             <a href="team-single.html" data-cursor-text="View">
                                 <figure class="image-anime">
-                                    <img src="./assets/images/team/archi.jpg" alt="jpg">
+                                    <img src="./assets/images/team/archi.webp" alt="jpg">
                                 </figure>
                             </a>
                 
