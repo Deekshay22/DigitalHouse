@@ -159,7 +159,7 @@
                 <div class="col-lg-5">
                     <div class="our-approach-image">
                         <figure class="image-anime reveal">
-                            <img src="assets/images/about-us/1.jpg" alt="The Digital House, Currency Tower, Raipur">
+                            <img src="assets/images/about-us/AboutNayra.webp" alt="The Digital House, Currency Tower, Raipur">
                         </figure>
                     </div>
                 </div>
@@ -204,13 +204,14 @@
                 <div class="col-lg-5 order-first order-lg-last">
                     <div class="our-approach-image">
                         <figure class="image-anime reveal">
-                            <img src="assets/images/about-us/1.jpg" alt="The Digital House, Currency Tower, Raipur">
+                            <img src="assets/images/about-us/AboutGaurav.webp" alt="The Digital House, Currency Tower, Raipur">
                         </figure>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 
     
     <!-- php include 'assets/includes/testimonials.php'  -->
